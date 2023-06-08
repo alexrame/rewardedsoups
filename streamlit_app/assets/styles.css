@@ -1,0 +1,186 @@
+
+.settings{
+    height:1rem;
+}
+
+div{
+    text-align: justify;
+}
+
+div[role="button"]{
+    font-size: 16px;
+}
+
+h6{
+    font-size: 14px;
+}
+
+h1{
+    text-align: center !important;
+}
+h4{
+    text-align: center !important;
+}
+
+table{
+    font-size: 0.8vw;
+    text-align: right !important;
+}
+
+.promptTextbox {
+    border: 2px solid #f3f3f3;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 2px 2px 2px grey;
+    font-size: 11px;
+    margin: 0;
+    padding: 0;
+}
+
+.promptHeader {
+    padding: 10px !important;
+    background-color: #ececec;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.promptContent {
+    padding: 20px;
+}
+
+.modelOutputBox {
+    border: 2px solid #c3e6cb;
+    border-radius: 5px;
+    background-color: #d4edda;
+    box-shadow: 2px 2px 2px #73c476;
+    font-size: 14px;
+    
+}
+
+.modelOutputHeader {
+    padding: 10px;
+    background-color: #ececec;
+    border-bottom: 1px solid #73c476;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.modelOutputContent {
+    padding: 20px;
+}
+
+.st-bx {
+    padding: 10px;
+    background-color: #ececec;
+    border-bottom: 1px solid #ddd;
+    font-weight: bold;
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+.lambda-header {
+    padding: 2px;
+    background-color: #d4edda;
+    font-weight: bold;  /* make the text bold */
+    font-size: 16px;
+    width: 50px;  /* reduce the width */
+    height: 30px;  /* reduce the width */
+    box-shadow: 2px 2px 2px grey;  /* same shadow as .lambdas */
+    text-align: center;
+}
+
+.lambdas {
+    padding: 10px;
+    background-color: #d4edda;  /* same color as .lambda-header */
+    font-size: 16px;
+    box-shadow: 2px 2px 2px grey;
+    margin-bottom: 10px;  /* creates space between this section and the next */
+    overflow: hidden;  /* this will prevent text exceeding the height from being visible */
+    height: auto;  /* adjust this to fit your text, accounting for padding and font size */
+    width: auto;
+}
+
+.imgContent {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+.imgContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 30%;
+    max-width: 30%;
+    margin: 10px;
+}
+
+.imglambda-header {
+    padding: 2px;
+    font-weight: bold;  /* make the text bold */
+    font-size: 16px;
+    width: 50px;  /* reduce the width */
+    height: 30px;  /* reduce the width */
+    text-align: center;
+}
+
+.imglambdas {
+    padding: 10px;
+    background-color: #d4edda;  /* same color as .lambda-header */
+    font-size: 16px;
+    box-shadow: 2px 2px 2px grey;
+    margin-bottom: 10px;  /* creates space between this section and the next */
+    overflow: hidden;  /* this will prevent text exceeding the height from being visible */
+    height: auto;  /* adjust this to fit your text, accounting for padding and font size */
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center; /* Add this line to center the content horizontally */
+    align-items: center; /* Add this line to center the content vertically */
+}
+.imglambdas img {
+    max-height: 99%;
+    max-width: 99%;  /* adjust to your preference */
+
+}
+
+div[data-testid='stHorizontalBlock'] {
+    display: flex;
+    align-items: center;  /* this will vertically center the items */
+    padding: 0;  /* removes padding */
+    margin: 0;  /* removes margin */
+}
+
+div[data-testid='column'] {
+    justify-content: center;  /* this will horizontally center the plot */
+    padding: 0;  /* removes padding */
+    margin: 0;  /* removes margin */
+}
+
+@keyframes typing {
+    from { width: 0; }
+    to { width: 100%; }
+}
+
+@keyframes blink-caret {
+    0%, 100% { border-color: transparent; }
+    50% { border-color: black; }
+}
+
+.typing-effect {
+    border-right: .15em solid black;
+    white-space: nowrap;
+    overflow: hidden;
+    margin: 0 auto;
+    animation: typing 2s steps(40, end), blink-caret 2.8s step-end;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
