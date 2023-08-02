@@ -21,7 +21,7 @@ All required args are defined [here](utils/args_utils.py).
 
 ```
 python3 train_ppo.py --task summary --dataset_name news --reward_models Tristan/gpt2_reward_summarization --output_folder ${folder_r1}
-python3 train_ppo.py --task summary --dataset_name news --reward_models CogComp/bart-faithful-summary --dataset_name news-detector --reward_formats '1-0' --output_folder ${folder_r2}
+python3 train_ppo.py --task summary --dataset_name news --reward_models CogComp/bart-faithful-summary-detector --dataset_name news --reward_formats '1-0' --output_folder ${folder_r2}
 ```
 
 
