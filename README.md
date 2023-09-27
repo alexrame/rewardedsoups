@@ -1,8 +1,8 @@
-# Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards
+# Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards. NeurIPS 2023.
 
 [Alexandre Ramé](https://alexrame.github.io/), [Guillaume Couairon](https://scholar.google.com/citations?user=O1DeDyEAAAAJ&hl), [Mustafa Shukor](https://scholar.google.com/citations?user=lhp9mRgAAAAJ), [Corentin Dancette](https://cdancette.fr/), [Jean-Baptiste Gaya](https://www.isir.upmc.fr/personnel/gaya), [Laure Soulier](https://www.isir.upmc.fr/personnel/soulier/) and [Matthieu Cord](http://webia.lip6.fr/~cord/)
 
-Repository to reproduce the main results from our [paper](https://arxiv.org/abs/2306.04488). The interactive demos are available on our [website](https://alexrame-rewardedsoups-streamlit-apphome-pxh21g.streamlit.app/) or our [HuggingFace space](https://huggingface.co/spaces/alexrame/rewardedsoups).
+Repository to reproduce the main results from our [paper](https://arxiv.org/abs/2306.04488). The interactive demos are available on our [website](https://alexrame-rewardedsoups-streamlit-apphome-pxh21g.streamlit.app/) or our [HuggingFace space](https://huggingface.co/spaces/alexrame/rewardedsoups). The reviews are available on [openreview](https://openreview.net/forum?id=lSbbC2VyCu&noteId=np0m5ACZtx).
 
 ![](./fig_intro.png)
 
@@ -34,10 +34,10 @@ The code in [captioning](captioning/README.md) enables the reproduction of our i
 If you find this code useful for your research, please consider citing our work:
 
 ```
-@article{rame2023rewardedsoups,
-  title     = {Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards},
-  author    = {Rame, Alexandre and Couairon, Guillaume and Shukor, Mustafa and Dancette, Corentin and Gaya, Jean-Baptiste and Soulier, Laure and Cord, Matthieu},
-  journal   = {arXiv preprint},
-  year      = {2023}
+@inproceedings{rame2023rewardedsoups,
+  title   = {Rewarded soups: towards Pareto-optimal alignment by interpolating weights fine-tuned on diverse rewards},
+  author  = {Ram{\'e}, Alexandre and Couairon, Guillaume and Shukor, Mustafa and Dancette, Corentin and Gaya, Jean-Baptiste and Soulier, Laure and Cord, Matthieu},
+  year    = {2023},
+  booktitle = {NeurIPS},
 }
 ```
